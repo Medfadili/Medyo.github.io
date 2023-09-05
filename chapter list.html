@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chapter List</title>
+  <style>
+    /* CSS styles for the chapter list page */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    main {
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+    
+    section {
+      margin-bottom: 20px;
+      max-width: 600px;
+      width: 100%;
+    }
+    
+    h2 {
+      color: #333;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 10px;
+      text-align: center;
+    }
+    
+    .chapter-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .chapter-item {
+      margin-bottom: 10px;
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+    
+    .chapter-item a {
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    .chapter-item a:hover {
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Chapter List</h1>
+  </header>
+  
+  <main>
+    <section>
+      <h2 style="background-color: #007bff; color: #fff; padding: 10px;">Manga Title</h2>
+      <ul class="chapter-list">
+        <li class="chapter-item" onclick="location.href='tbate.html'">
+          <a href="#">Chapter 1</a>
+        </li>
+        <li class="chapter-item" onclick="location.href='pic-page.html'">
+          <a href="#">Chapter 2</a>
+        </li>
+        <li class="chapter-item" onclick="location.href='pic-page.html'">
+          <a href="#">Chapter 3</a>
+        </li>
+        <li class="chapter-item" onclick="location.href='pic-page.html'">
+          <a href="#">Chapter 4</a>
+        </li>
+        <!-- Add more chapter items here -->
+      </ul>
+    </section>
+  </main>
+  
+  <footer style="background-color: #333; color: #fff; padding: 10px; text-align: center;">
+    <p>&copy; 2023 Manga Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>

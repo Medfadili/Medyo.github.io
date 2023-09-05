@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Manga Website</title>
+  <style>
+    /* CSS styles for the manga website */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    nav {
+      background-color: #444;
+      padding: 10px;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    section {
+      margin-bottom: 20px;
+    }
+    
+    h2 {
+      color: #333;
+    }
+    
+    .manga {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .manga-item {
+      width: 200px;
+      margin: 10px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+      cursor: pointer;
+    }
+    
+    .manga-item img {
+      width: 150px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Manga Website</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Genres</a></li>
+      <li><a href="#">Latest Releases</a></li>
+      <li><a href="#">Popular Manga</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <section>
+      <h2>Popular Manga</h2>
+      <div class="manga">
+        <div class="manga-item" onclick="location.href='chapter list.html'">
+          <img src="noop.jpg" alt="The beginning afer the end">
+          <h3>Manga 1</h3>
+          <p>Author: Author 1</p>
+        </div>
+        <div class="manga-item" onclick="location.href='chapter-list.html'">
+          <img src="manga2.jpg" alt="Manga 2">
+          <h3>Manga 2</h3>
+          <p>Author: Author 2</p>
+        </div>
+        <div class="manga-item" onclick="location.href='chapter-list.html'">
+          <img src="manga3.jpg" alt="Manga 3">
+          <h3>Manga 3</h3>
+          <p>Author: Author 3</p>
+        </div>
+        <div class="manga-item" onclick="location.href='chapter-list.html'">
+          <img src="manga4.jpg" alt="Manga 4">
+          <h3>Manga 4</h3>
+          <p>Author: Author 4</p>
+        </div>
+        <div class="manga-item" onclick="location.href='chapter-list.html'">
+          <img src="manga5.jpg" alt="Manga 5">
+          <h3>Manga 5</h3>
+          <p>Author: Author 5</p>
+        </div>
+        <div class="manga-item" onclick="location.href='chapter-list.html'">
+          <img src="manga6.jpg" alt="Manga 6">
+          <h3>Manga 6</h3>
+          <p>Author: Author 6</p>
+        </div>
+        <!-- Add more manga items here -->
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Manga Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
